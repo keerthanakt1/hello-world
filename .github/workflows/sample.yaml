@@ -1,0 +1,11 @@
+name: Sample demo
+ on:
+  push:
+ jobs: 
+  name: sample_build
+  runs-on: Ubuntu-latest
+  steps:
+   - name: First_step
+     run: |
+      echo 'Hello'
+      pwd
